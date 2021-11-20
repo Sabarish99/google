@@ -1,0 +1,139 @@
+nav ul li {
+    list-style-type: none;
+    padding: 10px;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+#sign-btn{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border-radius: 3%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav,footer{
+    flex-shrink: 0;
+}
+
+section{
+    display: flex;
+    /* min-height: 200vh; */
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+#logo
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* padding: 30px; */
+    /* background-color: brown; */
+}
+#logo img{
+    width: 300px;
+    height: 100px;   
+    justify-content: center;
+    align-content: center;
+    padding-left: 220px;
+    padding-top: -40px;
+}
+#logo #search
+{
+    border-radius: 20vmin;
+    width:45vw;
+    height: 5vh;
+    text-align: center;
+    border:1px solid lightgray;
+}
+#logo #btn ul{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    /* padding: 0px 20px;
+    margin: 11px 30px; */
+    align-items: center;
+    padding: 150px;
+
+}
+
+#logo #btn {
+    background-color: rgb(238, 238, 238);
+    color: black;
+    border-radius: 6px;
+    /* display: inline-flex; */
+    /* flex-direction: row; */
+    /* width: 150px;
+    height: 50px; */
+    /* padding: 50px; */
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 13vw;
+    height: 4vh;
+    font-size: 17px;
+    text-align: center;
+    align-items: center;
+    border:1px solid lightgray;
+   
+}
+
+
+footer{
+    background-color: rgb(238, 238, 238);
+    width: 100vw;
+    
+}
+
+/* .layer1, .layer2{
+    background-color: rgb(238, 238, 238);
+    border: 1px solid black ;  
+    font-size: 20px;
+    /* padding: 10px 5px; */
+    /* height: 3vh;
+    padding: -50px; */
+    
+ 
+.layer2,.layer1{
+    border:1px solid lightgray;
+        /* width: 100vw; */
+        height: 1vh;
+        padding-bottom: 70px;
+    }
+.layer1 ul, .layer2 ul
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(238, 238, 238);
+    font-size: 17px;
+    padding: 5px;
+    margin-bottom: 30px;
+    height: 3vh;
+    width: 100vw;
+    border-radius: 10vmin;
+    
+    
+}
+.layer1 ul li, .layer2 ul li
+{
+    list-style-type: none;
+    padding: 20px;
+    
+    /* margin-left: -52px; */
+   
+    
+    
+}

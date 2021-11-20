@@ -1,0 +1,168 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <style>
+        table,thead,tbody,tr,th,td{
+            border: 1px solid blue;
+            border-collapse: separate;
+
+        
+         
+        }
+        .frame
+        {
+            align-self: start;
+            background-color: burlywood;
+            align-tracks: right;
+        }
+        #button1
+        {
+            color: red;   
+            background-color: cornsilk;
+            border-radius: 24px;
+            box-sizing: border-box;
+            transform-box: center;
+            position: relative;
+            margin-left: 100px;
+            width: max-content;
+            width: 100pt;
+        }
+        
+    </style>
+</head>
+
+
+<body>  
+<table>
+    <thead>
+        <tr>
+            <th>Col1</th>
+            <th>Col2</th>
+            <th>Col3</th>
+
+        </tr>
+    </thead>
+   <tbody>
+       <tr>
+           <td colspan="2">colVal1</td>
+           <td>colVal2</td>
+           <!-- <td>colVal3</td> -->
+       </tr>
+       <tr>
+        <td>colVal1</td>
+        <td>colVal2</td>
+        <td>colVal3</td>
+    </tr>
+    <tr>
+        <td>colVal1</td>
+        <td>colVal2</td>
+        <td>colVal3</td>
+    </tr>
+   </tbody>
+
+</table>
+
+
+
+<video controls>
+    <source src="mov_bbb.ogg" >
+</video>
+<div>
+    <br>
+</div>
+
+<div class='frame'>
+<iframe class="frame" width="560" 
+height="315"
+ src="https://www.youtube.com/embed/C18cc3_7z_Q" 
+ title="YouTube video player" 
+ frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope;
+   picture-in-picture" allowfullscreen>
+</iframe> 
+</div>
+
+<br>
+<button id="button1"> CLick me and have fun :)</button>
+
+</body>
+
+<br>
+<form method="GET" action="/flexbox.html">
+    <div>
+        Name <input type="text" required name="User name" placeholder="Enter ur name">
+        Password <input type="password" name="password" placeholder="Password goes here">
+    </div>
+
+    <input type="submit">
+
+</form>
+
+
+
+<style>
+    .red-text {
+      color: red;
+      font-family:Lobster;
+    }
+    .p-class{
+        color:red;
+        font-family: monospace;
+    }
+    .silver{
+        background-color: silver;
+    }
+    #circle-img
+    {
+        border-radius: 50%;
+        width: 20%;
+        height: 40%;
+    }
+    .tick{
+        border-radius: 50%;
+        border: 10px solid greenyellow;
+    }
+    main
+    {
+        position:center;
+        margin-left: auto;
+    }
+  </style>
+  
+  <h2 class="red-text">CatPhotoApp</h2>
+  <main>
+    <p class="p-class">Click here to view more <a href="#">cat photos</a>. </p>
+  
+    <a href="#">
+        <img id="circle-img" class="tick" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+        </a>
+  
+    <div class="silver">
+      <p>Things cats love:</p>
+      <ul>
+        <li>cat nips</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+      </ul>
+      <p>Top 3 things cats hate:</p>
+      <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+      </ol>
+    </div>
+  
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+      <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+      <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+      <label><input type="checkbox" name="personality" checked> Loving</label>
+      <label><input type="checkbox" name="personality"> Lazy</label>
+      <label><input type="checkbox" name="personality"> Energetic</label><br>
+      <input type="text" placeholder="cat photo URL" required>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  
+
+
+</html>
